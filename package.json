@@ -21,7 +21,7 @@
         "astro-diagram": "^0.7.0",
         "astro-icon": "^1.1.0",
         "astro-lazy-youtube-embed": "^0.4.0",
-        "axios": "^1.6.6",
+        "axios": "^1.7.4",
         "marked": "^9.1.5",
         "mermaid": "^10.9.0",
         "playwright": "^1.43.0",
