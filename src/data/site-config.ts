@@ -84,10 +84,6 @@ const siteConfig: SiteConfig = {
             text: 'Link',
             href: '/link'
         },
-        // {
-        //     text: 'Projects',
-        //     href: '/projects'
-        // },
     ],
     footerNavLinks: [
         {
@@ -106,10 +102,6 @@ const siteConfig: SiteConfig = {
             text: 'RSS',
             href: '/rss.xml'
         }
-        // {
-        //     text: 'Download theme',
-        //     href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        // }
     ],
     socialLinks: [
         {

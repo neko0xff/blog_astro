@@ -16,7 +16,7 @@ import redotStringify from "redot-stringify";
 import rehypeRaw from 'rehype-raw';
 import robotsTxt from 'astro-robots-txt';
 import vue from "@astrojs/vue";
-import icon from "astro-icon";
+//import icon from "astro-icon";
 import { mermaid } from "./src/plugins/mermaid";
 
 // https://astro.build/config
@@ -31,10 +31,10 @@ export default defineConfig({
     }),
     robotsTxt({
       sitemap: [
-        'https://neko0xff-blog.vercel.app//sitemap-index.xml'
+        'https://neko0xff-blog.vercel.app/sitemap-index.xml'
       ]
     }),
-    icon()
+    //icon()
   ],
   markdown: {
     redotPlugins: [
