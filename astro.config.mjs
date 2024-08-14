@@ -31,8 +31,7 @@ export default defineConfig({
     }),
     robotsTxt({
       sitemap: [
-        'https://neko0xff.github.io/sitemap-index.xml',
-        'https://neko0xff-blog.vercel.app/sitemap-index.xml'
+        'https://neko0xff-blog.vercel.app//sitemap-index.xml'
       ]
     }),
     icon()
