@@ -27,14 +27,17 @@ onMounted(() => {
 
 <template>
     <div>
+        <p class="text-xs text-right">📧:
+            <a class="link" href="mailto:chzang55@gmail.com">chzang55@gmail.com</a>
+        </p>
+        <br>
         <div v-if="isLoading">
-            <p class="text-center"> 列表戴入中，請稍等…… </p>
+            <p class="text-center"> 列表戴入中，請稍等戴入…… </p>
         </div>
         <div v-else class="grid grid-cols-1 gap-3.5 md:grid-cols-2 mb-3">
             <div v-for="(card, index) in links" class="card-hover">
                 <a :href="card.siteURL">
                     <div class="relative overflow-hidden border-b-2 border-r-2 border-main">
-
                         <img v-if="card.icon === ''" class="absolute h-full" src="../assets/img/default.jpg"
                             :id="'avatar' + index" :alt="'avatar' + card.name" />
                         <img v-else class="absolute h-full" :src="card.icon" :id="'avatar' + index" :key="index"
@@ -52,12 +55,6 @@ onMounted(() => {
                 </a>
             </div>
         </div>
-        <br>
-        <p class="text-xs text-right">📧:
-            <a class="link" href="mailto:chzang55@gmail.com">
-                chzang55@gmail.com
-            </a>
-        </p>
     </div>
 </template>
 

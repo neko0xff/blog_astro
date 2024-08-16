@@ -70,7 +70,7 @@ const siteConfig: SiteConfig = {
     headerNavLinks: [
         {
             text: 'Home',
-            href: '/'
+            href: '/',
         },
         {
             text: 'Blog',
@@ -101,7 +101,8 @@ const siteConfig: SiteConfig = {
         {
             text: 'RSS',
             href: '/rss.xml'
-        }
+        },
+
     ],
     socialLinks: [
         {
@@ -147,7 +148,7 @@ const siteConfig: SiteConfig = {
     // },
     postsPerPage: 8,
     projectsPerPage: 8,
-    // giscusConfig: {
+    //giscusConfig: {
     //     dataRepo: "",
     //     dataRepoId: "",
     //     dataCategory: "",
